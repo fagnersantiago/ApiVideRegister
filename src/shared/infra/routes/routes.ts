@@ -6,6 +6,6 @@ const router = Router();
 const videoController = new VideoController();
 
 router.get("", videoController.show);
-router.post("/video", videoController.create);
+router.post("/video", videoController.store);
 
 export default router;
