@@ -4,7 +4,7 @@ import "express-async-errors";
 import router from "./routes/routes";
 import AppError from "../Errors/AppError";
 
-import createConnection from "../../database/index";
+import createConnection from "../database/index";
 
 createConnection();
 
