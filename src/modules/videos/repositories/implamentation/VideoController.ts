@@ -4,7 +4,7 @@ import VideoRepository from "../VideoRepository";
 import AppError from "../../../../shared/Errors/AppError";
 
 class VideoController {
-  async create(request: Request, response: Response) {
+  async store(request: Request, response: Response) {
     const { title, description, url_thumbnail, url_video } = request.body;
 
     const videoRepository = getCustomRepository(VideoRepository);
