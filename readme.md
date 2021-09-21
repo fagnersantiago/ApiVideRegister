@@ -29,3 +29,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Express.js](https://expressjs.com/pt-br/)
 - [Node.js](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Docker](https://www.docker.com/)
